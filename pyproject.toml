@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "mva-rs-project"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "mva_rs_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+notebook = "^6.5.3"
+geopandas = "^0.12.2"
+rasterio = "^1.3.6"
+matplotlib = "^3.7.1"
+scikit-image = "^0.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
