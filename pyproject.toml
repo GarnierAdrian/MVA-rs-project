@@ -16,7 +16,8 @@ scikit-image = "^0.20.0"
 opencv-python = "^4.7.0.72"
 imbalanced-learn = "^0.10.1"
 lightgbm = "^3.3.5"
-tornado = "^6.2"
+tornado = "6.1"
+jupyter_client = "7.3.2"
 
 
 [build-system]
